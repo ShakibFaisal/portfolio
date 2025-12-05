@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Developer Portfolio Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#2563EB", // A vibrant blue
+              "background-light": "#F3F4F6", // Light Gray
+              "background-dark": "#0D1117", // Very Dark Navy
+            },
+            fontFamily: {
+              display: ["Sora", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Sora", sans-serif;
+      }
+      .material-icons {
+        font-size: inherit;
+        line-height: inherit;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark text-gray-700 dark:text-gray-300 antialiased"
+  >
+    <section class="min-h-screen px-4 sm:px-6 lg:px-8 flex flex-col">
+      <header class="py-8">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <div class="flex items-center gap-3">
+            <div class="bg-primary p-2 rounded-lg">
+              <svg
+                class="w-6 h-6 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </div>
+            <span class="text-lg font-bold text-gray-900 dark:text-white"
+              >Arif Billah Mubin</span
+            >
+          </div>
+          <nav
+            class="hidden md:flex items-center bg-gray-200/50 dark:bg-gray-800/50 backdrop-blur-sm p-2 rounded-full border border-gray-300 dark:border-gray-700"
+          >
+            <a
+              class="px-4 py-1 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+              href="#"
+              >About</a
+            >
+            <a
+              class="px-4 py-1 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+              href="#"
+              >Skills</a
+            >
+            <a
+              class="px-4 py-1 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+              href="#"
+              >Education</a
+            >
+            <a
+              class="px-4 py-1 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+              href="#"
+              >Projects</a
+            >
+            <a
+              class="px-4 py-1 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+              href="#"
+              >Contact</a
+            >
+            <button
+              class="ml-2 p-2 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
+            >
+              <span
+                class="material-icons text-xl text-gray-700 dark:text-gray-200"
+                >wb_sunny</span
+              >
+            </button>
+          </nav>
+          <button
+            class="md:hidden p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-800"
+          >
+            <span class="material-icons text-2xl text-gray-900 dark:text-white"
+              >menu</span
+            >
+          </button>
+        </div>
+      </header>
+      <main class="flex-grow flex items-center">
+        <div
+          class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-12 lg:py-24"
+        >
+          <div class="flex flex-col gap-6 items-start">
+            <div
+              class="flex items-center gap-2 px-3 py-1 bg-green-100 dark:bg-green-900/50 rounded-full border border-green-200 dark:border-green-800"
+            >
+              <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+              <p class="text-sm font-medium text-green-800 dark:text-green-300">
+                Available for work
+              </p>
+            </div>
+            <h1
+              class="text-5xl md:text-6xl font-bold tracking-tighter text-gray-900 dark:text-white leading-tight"
+            >
+              Junior Frontend
+              <span class="text-primary">Developer</span>
+            </h1>
+            <p
+              class="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-xl"
+            >
+              Skilled in React.js and modern JavaScript, passionate about
+              building clean, responsive, and user-friendly web interfaces.
+              Turning ideas into smooth, interactive experiences.
+            </p>
+            <div class="flex items-center gap-8 pt-4">
+              <div>
+                <p class="text-3xl font-bold text-primary">1+</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                  Years Exp.
+                </p>
+              </div>
+              <div>
+                <p class="text-3xl font-bold text-primary">10+</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Projects</p>
+              </div>
+              <div>
+                <p class="text-3xl font-bold text-primary">5+</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                  Technologies
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center gap-4 pt-6">
+              <a
+                class="inline-flex items-center gap-2 bg-primary text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all transform hover:-translate-y-0.5"
+                href="#"
+              >
+                View My Work
+                <span class="material-icons text-xl">arrow_forward</span>
+              </a>
+              <a
+                class="inline-flex items-center gap-2 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
+                href="#"
+              >
+                <span class="material-icons text-xl">download</span>
+                Download Resume
+              </a>
+            </div>
+          </div>
+          <div class="relative flex justify-center items-center">
+            <div
+              class="absolute w-40 h-40 bg-primary/20 dark:bg-primary/10 blur-3xl rounded-full -top-10 -right-10"
+            ></div>
+            <div
+              class="absolute w-56 h-56 bg-teal-500/20 dark:bg-teal-500/10 blur-3xl rounded-full bottom-0 -left-10"
+            ></div>
+            <div class="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
+              <div
+                class="absolute inset-0 border-4 border-primary rounded-full -rotate-45"
+              ></div>
+              <div
+                class="absolute inset-2 md:inset-4 bg-gray-200 dark:bg-gray-800 rounded-full p-2"
+              >
+                <img
+                  alt="Portrait of Arif Billah Mubin"
+                  class="w-full h-full object-cover rounded-full"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCW79t8EK_pPvM6dyzo_XvKlrdtjgbUlpqKISLWhBWnAf4anw5xN5V7Y_hwmrQCAMG-94DMT0gtvDxUVWigaEccsxsKa4d-ZEnB5EGkbQLZiDhXh4Gv8yDiNLo23h35yQUbgSH8zaTilDaU7uSCBoaNULuedC1tx9qNLmfQZQuWrmy7anoQ69CGJvZDitVp441tXhW4xXwhk6giRRPRwLDX5sHL9zb5FLW4BnWi4t9GfrM_GD8j-aIEHbmkhYq9Gfg0xK6HonEFV5TD"
+                />
+              </div>
+            </div>
+            <div
+              class="absolute top-8 right-0 md:top-12 md:-right-4 flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 backdrop-blur-sm p-2 px-4 rounded-full border border-gray-300 dark:border-gray-700 shadow-lg"
+            >
+              <svg
+                class="h-5 w-5 text-cyan-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M11.3 1.046A1 1 0 0112 2v1.268l4.992 2.496a1 1 0 01.508.886v8.7a1 1 0 01-.508.886L12 18.732V19a1 1 0 01-1.447.894l-8-4A1 1 0 012 15V9a1 1 0 01.553-.894l8-4a1 1 0 01.747-.05zM12 4.392L5.888 7.5 12 10.608 18.112 7.5 12 4.392zM4 9.618v4.764l6 3v-4.764l-6-3z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+              <span class="text-sm font-semibold text-gray-900 dark:text-white"
+                >React</span
+              >
+            </div>
+            <div
+              class="absolute bottom-16 -right-4 md:bottom-24 md:-right-8 flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 backdrop-blur-sm p-2 px-4 rounded-full border border-gray-300 dark:border-gray-700 shadow-lg"
+            >
+              <span class="material-icons text-lg text-yellow-500">bolt</span>
+              <span class="text-sm font-semibold text-gray-900 dark:text-white"
+                >Fast</span
+              >
+            </div>
+            <div
+              class="absolute bottom-8 -left-4 md:bottom-12 md:-left-8 flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 backdrop-blur-sm p-2 px-4 rounded-full border border-gray-300 dark:border-gray-700 shadow-lg"
+            >
+              <span class="material-icons text-lg text-orange-500"
+                >palette</span
+              >
+              <span class="text-sm font-semibold text-gray-900 dark:text-white"
+                >Design</span
+              >
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="min-h-screen px-4 sm:px-6 lg:px-8 flex flex-col">
+      <main class="flex-grow flex items-center justify-center">
+        <div class="max-w-7xl mx-auto w-full py-16">
+          <div class="text-center mb-12">
+            <h2
+              class="text-4xl font-bold text-white tracking-tight sm:text-5xl"
+            >
+              About Me
+            </h2>
+            <p class="mt-4 text-lg text-gray-400">
+              A brief introduction to my journey in web development.
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+          >
+            <div class="space-y-6 text-lg text-gray-300">
+              <p>
+                Hello! I'm a passionate junior frontend developer with a love
+                for creating clean, intuitive, and dynamic user interfaces. My
+                journey into web development started with a fascination for how
+                code can bring ideas to life on the screen.
+              </p>
+              <p>
+                I specialize in a modern tech stack, including
+                <span class="text-blue-400 font-medium"
+                  >HTML, CSS, JavaScript,</span
+                >
+                and frameworks like
+                <span class="text-blue-400 font-medium">React</span> and
+                <span class="text-blue-400 font-medium">Next.js</span>. On the
+                backend, I have experience with
+                <span class="text-blue-400 font-medium"
+                  >Node.js, Express.js,</span
+                >
+                and databases such as
+                <span class="text-blue-400 font-medium">MongoDB</span> and
+                <span class="text-blue-400 font-medium">Firebase</span>.
+              </p>
+              <p>
+                I am a highly motivated and optimistic individual dedicated to
+                writing clean, concise, and robust code. I'm constantly
+                learning, exploring new technologies, and striving to improve my
+                skills to build better web experiences.
+              </p>
+            </div>
+            <div class="flex justify-center lg:justify-end">
+              <div class="relative w-full max-w-sm">
+                <div
+                  class="absolute inset-0 bg-blue-500/30 rounded-lg transform -rotate-3 transition-transform duration-300 hover:rotate-0"
+                ></div>
+                <div
+                  class="relative bg-surface-dark border border-border-dark rounded-lg p-3 shadow-2xl"
+                >
+                  <img
+                    alt="Developer coding on a laptop"
+                    class="rounded-md w-full"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCW79t8EK_pPvM6dyzo_XvKlrdtjgbUlpqKISLWhBWnAf4anw5xN5V7Y_hwmrQCAMG-94DMT0gtvDxUVWigaEccsxsKa4d-ZEnB5EGkbQLZiDhXh4Gv8yDiNLo23h35yQUbgSH8zaTilDaU7uSCBoaNULuedC1tx9qNLmfQZQuWrmy7anoQ69CGJvZDitVp441tXhW4xXwhk6giRRPRwLDX5sHL9zb5FLW4BnWi4t9GfrM_GD8j-aIEHbmkhYq9Gfg0xK6HonEFV5TD"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+<section class="bg-background-dark text-gray-300 antialiased">
+<div class="min-h-screen px-4 sm:px-6 lg:px-8 flex flex-col">
+<main class="flex-grow flex items-center justify-center">
+<div class="max-w-4xl mx-auto w-full py-16">
+<div class="text-center mb-16">
+<div class="inline-flex items-center justify-center bg-teal-accent/10 text-teal-accent rounded-full p-3 mb-4">
+<span class="material-symbols-outlined text-4xl">school</span>
+</div>
+<h2 class="text-4xl font-bold text-white tracking-tight sm:text-5xl">Educational Qualification</h2>
+<p class="mt-4 text-lg text-gray-400">My academic journey</p>
+</div>
+<div class="relative">
+<div aria-hidden="true" class="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-border-dark"></div>
+<div class="space-y-12">
+<div class="relative flex items-start">
+<div class="flex-1 pr-8">
+<div class="bg-surface-dark border border-border-dark rounded-lg p-6 shadow-lg">
+<h3 class="text-xl font-bold text-white mb-2">Bachelor of Social Science</h3>
+<div class="flex flex-col sm:flex-row sm:items-center gap-x-6 gap-y-2 text-gray-400 mb-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-accent text-lg">account_balance</span>
+<span>National University</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-accent text-lg">location_on</span>
+<span>Dhaka, Bangladesh</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-accent text-lg">calendar_month</span>
+<span>2020 - 2022</span>
+</div>
+</div>
+<span class="inline-block bg-teal-accent/20 text-teal-300 text-sm font-medium px-3 py-1 rounded-full">GPA: not completed</span>
+</div>
+</div>
+<div class="w-1/2 absolute left-1/2 top-8 -translate-y-1/2 flex justify-center">
+<div class="w-4 h-4 bg-teal-accent rounded-full ring-4 ring-background-dark"></div>
+</div>
+<div class="flex-1 pl-8 hidden sm:block"></div>
+</div>
+<div class="relative flex items-start">
+<div class="flex-1 pr-8 hidden sm:block"></div>
+<div class="w-1/2 absolute left-1/2 top-8 -translate-y-1/2 flex justify-center">
+<div class="w-4 h-4 bg-teal-accent rounded-full ring-4 ring-background-dark"></div>
+</div>
+<div class="flex-1 pl-8">
+<div class="bg-surface-dark border border-border-dark rounded-lg p-6 shadow-lg">
+<h3 class="text-xl font-bold text-white mb-2">Higher Secondary Certificate (HSC)</h3>
+<div class="flex flex-col sm:flex-row sm:items-center gap-x-6 gap-y-2 text-gray-400 mb-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-accent text-lg">account_balance</span>
+<span>Gazipur Cantonment College</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-accent text-lg">location_on</span>
+<span>Gazipur, Bangladesh</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-teal-accent text-lg">calendar_month</span>
+<span>2017 - 2019</span>
+</div>
+</div>
+<span class="inline-block bg-teal-accent/20 text-teal-300 text-sm font-medium px-3 py-1 rounded-full">GPA: 4.0/5.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</section>
+<section class="bg-background-dark text-gray-300 antialiased">
+<div class="min-h-screen px-4 sm:px-6 lg:px-8 flex flex-col">
+<main class="flex-grow flex items-center justify-center">
+<div class="max-w-7xl mx-auto w-full py-16">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-white tracking-tight sm:text-5xl">Projects</h2>
+<div class="mt-4 flex justify-center items-center">
+<div class="h-1 w-1 bg-coral rounded-full"></div>
+<div class="h-8 w-[2px] bg-coral mx-auto"></div>
+<div class="h-1 w-1 bg-coral rounded-full"></div>
+</div>
+</div>
+<div class="space-y-16">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<h3 class="text-3xl font-bold text-white">Battleship</h3>
+<div class="flex flex-wrap gap-3">
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">HTML</span>
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">CSS</span>
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">Javascript</span>
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">Node.js</span>
+</div>
+<p class="text-gray-400 leading-relaxed">
+                  Used components of Javascript to implement basic data structures through the game of Battleship. Used a terminal to display ships and tracked where ships are hit or missed.
+                </p>
+<div class="flex items-center gap-6 pt-4">
+<button class="bg-coral text-background-dark font-semibold px-6 py-3 rounded-md hover:bg-coral/90 transition-colors">View Github</button>
+<a class="text-white font-medium hover:text-coral transition-colors flex items-center gap-2 group" href="#">
+<span>View project</span>
+<span class="material-symbols-outlined transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div>
+<div class="bg-gray-900 border border-border-dark rounded-lg p-6 shadow-2xl font-mono text-sm text-gray-300 leading-6">
+<p><span class="text-green-400">Hit!</span></p>
+<p>Enter a location to strike i.e., 'A2' from A-J and 0-9 <span class="text-yellow-400">F2</span></p>
+<p><span class="text-red-400">Miss!</span></p>
+<p>Enter a location to strike i.e., 'A2' from A-J and 0-9 <span class="text-yellow-400">F1</span></p>
+<p><span class="text-red-400">Miss!</span></p>
+<p>Enter a location to strike i.e., 'A2' from A-J and 0-9 <span class="text-yellow-400">E3</span></p>
+<p><span class="text-green-400">Hit!</span></p>
+<p>Enter a location to strike i.e., 'A2' from A-J and 0-9 <span class="text-yellow-400">D3</span></p>
+<p><span class="text-green-400">Hit!</span></p>
+<p>You sunk a Cruiser. There are 4 ships left!</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="lg:order-2 space-y-6">
+<h3 class="text-3xl font-bold text-white">Project Two</h3>
+<div class="flex flex-wrap gap-3">
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">React</span>
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">Express.js</span>
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">MongoDB</span>
+<span class="bg-gray-700/50 text-gray-300 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-600">Next.js</span>
+</div>
+<p class="text-gray-400 leading-relaxed">
+                  A full-stack web application built with a modern tech stack. This project showcases advanced features, database integration, and a seamless user experience.
+                </p>
+<div class="flex items-center gap-6 pt-4">
+<button class="bg-coral text-background-dark font-semibold px-6 py-3 rounded-md hover:bg-coral/90 transition-colors">View Github</button>
+<a class="text-white font-medium hover:text-coral transition-colors flex items-center gap-2 group" href="#">
+<span>View project</span>
+<span class="material-symbols-outlined transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:order-1">
+<div class="bg-gray-900 border border-border-dark rounded-lg p-6 shadow-2xl font-mono text-sm text-gray-300 leading-6">
+<p><span class="text-blue-400">import</span> React <span class="text-blue-400">from</span> <span class="text-yellow-400">'react'</span>;</p>
+<p></p>
+<p><span class="text-blue-400">const</span> <span class="text-green-400">MyComponent</span> = () =&gt; {</p>
+<p> <span class="text-blue-400">return</span> (</p>
+<p>    &lt;<span class="text-red-400">div</span>&gt;</p>
+<p>      &lt;<span class="text-red-400">h1</span>&gt;Hello, World!&lt;/<span class="text-red-400">h1</span>&gt;</p>
+<p>      &lt;<span class="text-red-400">p</span>&gt;This is a project preview.&lt;/<span class="text-red-400">p</span>&gt;</p>
+<p>    &lt;/<span class="text-red-400">div</span>&gt;</p>
+<p>  );</p>
+<p>};</p>
+<p></p>
+<p><span class="text-blue-400">export default</span> MyComponent;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</section>
+<section class="bg-background-dark text-gray-300 antialiased">
+<div class="min-h-screen px-4 sm:px-6 lg:px-8 flex flex-col">
+<main class="flex-grow flex items-center justify-center">
+<div class="max-w-7xl mx-auto w-full py-16">
+<div class="text-left mb-12">
+<h2 class="text-4xl font-bold text-white tracking-tight sm:text-5xl">Skills &amp; Technologies</h2>
+<p class="mt-4 text-lg text-gray-400">Technologies and skills I use to build amazing products</p>
+</div>
+<div class="space-y-12">
+<section>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-1 bg-blue-500 rounded-full"></div>
+<h3 class="text-2xl font-bold text-white">Frontend</h3>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Javascript icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn11ss_dQ6bbABmHIvwvPBbSoym12tUl0qY6l0Vvwmq2ZNtcLdBsozcSG9ttkp81BUHkVtKcFEQINX3jH36MaNve6Z4i5tOe7bSEssGSi087V9Wfx4Nlgtp1J-zTgCn03xixhXJAHsuoMEopyWgzWQMTgF4eb6K5scg9u8JfZDfbcCp4JttZ7GbEHfl_p85XXfDLClVSqG6hXpBDlFaXrSyZkJnewZ6sotjKrN1Y0EpFG75TKa1EPIn0wABPgJWxIJepMX1GUP2Vkg"/>
+<span class="text-sm font-medium text-white">Javascript (ES6+)</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-blue-500 h-1.5 rounded-full" style="width: 80%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="React.js icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIKpE1sEj-D2QmtGz432bm9PZVVM0k1slGiMSF0j9TBKC2stSU3oQy0rayJhAXFtxTrU9-O_slG-9uODDm-N8_XdrX3IcwyDSzpaEDKoflBQlndjFi-uJ0coTv3QdU4Wkr5_qoUECBKCPuX31q1BkClXNWpCuKKK5-2UVG-hLB9fF4dn62yA7wG5RRKlDobJKEUVOHaTYAtAIaneDteYkMqXVJQ_uLYcdMn354xMZQHSB41rSt-fZzJS6tjoacPnMq--pHHNyqkoGU"/>
+<span class="text-sm font-medium text-white">React.js</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-blue-500 h-1.5 rounded-full" style="width: 85%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="React Router icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXSLrzAIle9k6ijwqOx455t8d-kaPVWqvYLyJT_gR5_oSv7DyvuMev0pcJE2PRX5Tl3SY3VD1X2KPd2VdA3e8bMM6o0GpyoaG2ig1WYRr0KmmacpCLt6Xm2il00T-sxPQLjJnIr4ct0WwrUvlXHpMogLHUqtTIPFS1rih575pwDhr2KgjhqwATB3QSe6FBTgEXQeL7DLpfau4wyEe8oJSc4y0-vZbqHstUzEcMtvgkMkUnuiIEB0WSYeDxqBK3_Ih3SRnYFzkKVbUi"/>
+<span class="text-sm font-medium text-white">React Router</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-blue-500 h-1.5 rounded-full" style="width: 75%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Tailwind CSS icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5jfUEg4efZFC6fLpTzZK4COhRkRc46MbGR-25GvIK6vsQz9VHuF4lrHbvl54MqQu6MI4p6Cfayqpy7GYs1Z-wm1obT0ahCv1RlkOGQgksygEiJyaxzePcT7V1pfkuefE79TJvBZnpxfEIhTO--NAzo4VYct96pS_xkFtN9djpfCvqpUuRaBmeYA6bKqXo6RrU7vje13FBl53tcwU0EJYmExJF0HY4cT07TgY4FKcyTGiqhm-yLczb6ha2Z3IJVJbKiL1O4Ujh1Vo8"/>
+<span class="text-sm font-medium text-white">Tailwind CSS</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-blue-500 h-1.5 rounded-full" style="width: 90%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="HTML5 icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc2kocAd2j0X3qD3SloP14fa2O0O3pD0O-Bd-w8jie1PPj8rae_93g9jXKVFWAfXOP6RIDXPFAew3U-wVzUeN1ldKcBIyV2SYd2asVSRq86AIrcJSTjEQPknFR1IKeYB_2INqQza7jNXkrK_fpV3iqXAITzCe-d0wiJg_MMTdMIUBIFt7OBbM9W6Fm9il9oY4xUHKjocZKx3stuNfIV3Amlkg4yb80m844Zqa8iHYVRwPrHFJgDc8fP5d5ZGNCZKWYBAQbLWDk8_VT"/>
+<span class="text-sm font-medium text-white">HTML5</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-blue-500 h-1.5 rounded-full" style="width: 95%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="CSS3 icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgrhW8nbKdIxcHDmUWebBKYNXGLrePTrg1HtdiYwrbXNMrKqId3uV4JtfqmSAqQjANnlA3sVM9LJFQYnuVak4aUndmq1i8gGuKN21NixbswK0xkOxTMrptJkVCRQFvw1iz8rRpgWZF-73a49YLsLXfPkyR6oVoj03ZW4uCVwR47QWTx2_AVdEHpiV6gQ4ZHnLA1lku8H-SMgoveUffHJzrB-0UhPa9moKPV2ttz_oCc9XzEWVud5pY_P3NCHJei-ll4LX7jWanHcOe"/>
+<span class="text-sm font-medium text-white">CSS3</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-blue-500 h-1.5 rounded-full" style="width: 90%"></div></div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-1 bg-green-500 rounded-full"></div>
+<h3 class="text-2xl font-bold text-white">Backend</h3>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Node.js icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh_vFTWaQhrM_yySTk7o9azj5SeuDVuRicyZG5BO2rJbP1RHpThFpoTJ-4ME5cL9rI9qrAeLLFHme1lgZrSVah_n3f-ucltcd6a42U4UT1zos1KSmCItAJzU1QKuTSgfdESt1wK2LnnNTCjzzkM1x87PE141RtlPxJzM-ZKWuEjZx8VrmwGPSqVC5xlFC2eoX6lbYWKwdOjRu4outrFV-_MZ4pmAyADjLPkuXBGKDQgbPcHK-ePG8IMxEwjzobLBg-0oqLIlDJa6CI"/>
+<span class="text-sm font-medium text-white">Node.js</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-500 h-1.5 rounded-full" style="width: 70%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Express.js icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0zll-zWAM1QIQiODMnXsbsQ_AJ8CkzW9qquV1EGIusEM9iGqv_qUHq_gJePFumaetY79ubn1J4rYS47FWlV5aoR9EaKmeaVjTFG_bK3lw6q4tXZ7lbZ4oQXeGYjxVKcSiwGCBNGHIeKIJK1Pj3BhFHYIGpXz__CsFRbx0b5I5YBFJpZN3pM5JrahGcw3GDYR6btwBqAiWk0Vxk4Y07ZbV1mGsmFeZPk5pFyrVVeKoOQX6oandM6b4BsY2BzNPUzef7EBXNECXG_rm"/>
+<span class="text-sm font-medium text-white">Express.js</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-500 h-1.5 rounded-full" style="width: 80%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="JWT icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1OmK2HzlmQZHytXm6B2zH3Q1iQ2cBOVgjmEroc3VwUTLUqEnmoEk-bp-JyG2tktAFDVvRPPEOJjJA8-82EnBjRLE74YeB6fD9y3OTKj3RiL-mGsrUnTU5cXm_Zs9Shu8j6T1a4JCHZOLMhj814VTX8djc90vyv1To6ePKvBIu3Od5Yti13Cs7U_jlFU2NQKGGEC13PiPwa0lCCwFmoeU46Rmino2RQYEhuBPsoN7-nBUeFF8TGR_ro09Ou9y9ezo7UwFvgsWj138y"/>
+<span class="text-sm font-medium text-white">JWT</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-500 h-1.5 rounded-full" style="width: 85%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Firebase Auth icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7vncbFdhpuslZ4LUv-jMjV4fLuSVc_nnSMQeManXI3GJMhTa-BA-cA2gnkehnetOxIwGSw5KM-isGQXK9ldcnZg2m4svQ9kVb39db1WAOGcb3qA_Ut315JX0_e2iiSxcWa1FtDQ10myeIGdvkmtsSbrkd7jlHdo6UDgZVTqM-DunYJhCXOuNsX_rVR6Xl_eTL2CkkU-ztwaONrYlq2HkTHuPb_5X1MfUsTIbzIhMP9d748lgoLzB5RN9THowFj4gi9HS_Yqlk9t9-"/>
+<span class="text-sm font-medium text-white">Firebase Auth</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-500 h-1.5 rounded-full" style="width: 75%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="REST API icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa6EAhFEStOhdGWFjmYxz-Xp_6TLM-UQSkg9P1ZbjQygr46DBRTPR_IOte5xfX6zuCSaxCo9gAcGqWsCfdB3MLXeArQ2FmEZKRwQMQfrDfQ8MwPZIi0CzKjpUNwziMwQ4ZVqe08Bvr2jK4qgBQpzhyCY3YcVxhWyr8x5yqfJT4Ws3uiQnRvh6oZ6o-H_9q7dyc3yXuAbiaKUMadG4ERHBcsx93GMDoljqsuWzsT1VwxoS51nF-ccaht4Zn4mwZhmCXJWeHqCvK1Blz"/>
+<span class="text-sm font-medium text-white">REST API</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-500 h-1.5 rounded-full" style="width: 90%"></div></div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-1 bg-green-400 rounded-full"></div>
+<h3 class="text-2xl font-bold text-white">Database</h3>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="MongoDB icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbnoAmoroH0srk6VSf4D5qkf1EcRedNchvqRP3fkbcm3fUU0gF4vIo9FWwdzgGLAy4nwuePlGmQkC0FtbK9dl_RAR_AwZkLbER-N2wQR7Jm_RD8BulQaJv3W4zTe5wsV86fVBmq_yh1_76bWNm12yXIeRHYcH7tcRGFJcogl_soWEBtevmCjKn-iZmalcsD8-JIP5G6WDswBXkGdsPBrt7zn1JKMfu4weaWU16I84p4QSQE55c46HjWiN29eLE7VWJdR-fN5A5pfRx"/>
+<span class="text-sm font-medium text-white">MongoDB</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-400 h-1.5 rounded-full" style="width: 80%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Mongoose icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTe8WN7G3WU-0U5x9oR-pBitKRSVHLJVQkxmYntBsM4rNPaXoJJWRslSD993Clb4TE-aTnA8nQrwkF8tOIZ1YHjwvh4KfDepkpx8FstmfoHrDzZCE48lDsHRYcupGHQGvROHenqWX5SZLv8gxhtIoFtY0VEp47Dsh2iGTG4DMEsJeL3WP3hDoi7PpGyxq-OU8uScXvAuYauA5dtl5YnE6W3YoNDIgyfNmquyx2jm30x3gewBkOUp0qJ3_6S5HxaZ95NvWA4G4e1gSv"/>
+<span class="text-sm font-medium text-white">Mongoose</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-green-400 h-1.5 rounded-full" style="width: 75%"></div></div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-10 h-1 bg-orange-500 rounded-full"></div>
+<h3 class="text-2xl font-bold text-white">Tools</h3>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Git &amp; GitHub icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDixhyTDmXK15QlX6VWUZ5yOSIJGLwoOCHb64y64-IO3ZAltDMRQWpdsVmNGH_K4Uca_bJC9dpxQvfJOad1D455wumMD2XHrOSRKYb9oGLadhpcqXoseGxbyRpofl0d9s8ORLfS60MUY5J0J-CALrAII83acbnm57_0TnNUBmqcskCjBIu1Z2UQjppZfjh_7Lh95N10Bs5hDjtJEu4_HRiC9SGs4nRlbitcYmdcZlAAamrFs2Ld1VNJI6rhU5ieQAJlXpufEsRsfoik"/>
+<span class="text-sm font-medium text-white">Git &amp; GitHub</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-orange-500 h-1.5 rounded-full" style="width: 85%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="VS Code icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBM-PZHq6EM_RVQ7xoJ0jqfH_vuFeQemM348DJA7li8GSj7D5oJ-tKHbPF46xX_kndHAUbj9VShCRzneV-IRCoWfusFiOXOBcQTaTxB4CPfQ7rCOBhSQB9_TxTvQHaDBexxPE2AhDEWDDWkgAGlH_k1bhNI6WhD97aSDkD-IajmGB-mQcqbK_G9tBdNpvY7TTvclJMn6anYu9-Ym3Rca21Njvvo7hchdS_AksdM-h8vYarCoqOADaAyvS6tiF7HZr9KAsiEJyfLE9qF"/>
+<span class="text-sm font-medium text-white">VS Code</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-orange-500 h-1.5 rounded-full" style="width: 95%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Postman icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3S2uBoehAb1FGj7N9pDT62jevjXI2HLvLyeUZikGr0ah9wzR9jXJqN4U5qAeq7342VLG9WIujFqloCpRMPPyMjZ_s2ZeWepWBpMZeODBmF6Ark0Bj6aIhfmzEoYE5wO8Y2O0zwZ-3XbZOwxMTH2hr1mwhVKJDLRae5FZKn-qbuwq6387pCikqvrQS9TPQ2PUgM8Jo532x4ZJjOznTFuQoswhu0MFPIBKA-s6BWytVZM1i7VK4BmFiLW_ht0MoszhZNdsSLk1gL-Y2"/>
+<span class="text-sm font-medium text-white">Postman</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-orange-500 h-1.5 rounded-full" style="width: 90%"></div></div>
+</div>
+<div class="bg-surface-dark border border-border-dark rounded-lg p-4 text-center flex flex-col items-center justify-between aspect-square">
+<img alt="Chrome DevTools icon" class="h-10 w-10 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDChkG12FacOTVX066wSFtCU3G-arQvMdAQ8flIjKGBF9yC7iMNDpx90ZaNVjXCrJ_VPhi9bSNFFi9U7QDfzVCzShi5MWMpJFpHDfVziCQpOGBAE6Kz9Bbd8bAEzadf-OAAqVlXuEMjU37LUDlFvlCQUhyC_brBF9P0zciwecNMwbgh_d7VqO8U6QbmDz-vy9YDj7663P25Z8zpUZBfj3HbvDJIT_mzySpA5ESXjbqp5xVwFW-i8PK1HziSqfCfW5RS3nktqYkYRHPz"/>
+<span class="text-sm font-medium text-white">Chrome DevTools</span>
+<div class="w-full bg-gray-700 rounded-full h-1.5 mt-2"><div class="bg-orange-500 h-1.5 rounded-full" style="width: 80%"></div></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+</div>
+
+</section>
+<section class="bg-background-dark text-gray-300 antialiased">
+<div class="min-h-screen px-4 sm:px-6 lg:px-8 flex flex-col">
+<main class="flex-grow flex items-center justify-center">
+<div class="max-w-7xl mx-auto w-full py-16">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-teal-accent tracking-tight sm:text-5xl">Contact Me</h2>
+</div>
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-teal-accent text-3xl">mail</span>
+<p class="text-lg">reza35-951@diu.edu.bd</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-teal-accent text-3xl">phone</span>
+<p class="text-lg">+880 1234 567 890</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-teal-accent text-3xl">location_on</span>
+<p class="text-lg">Joypurhat, Bangladesh</p>
+</div>
+</div>
+<div class="bg-surface-dark p-8 rounded-lg border border-border-dark">
+<form action="#" class="space-y-6">
+<div>
+<label class="sr-only" for="name">Your Name</label>
+<input class="block w-full bg-background-dark border-border-dark rounded-md py-3 px-4 text-gray-300 placeholder-gray-500 focus:ring-teal-accent focus:border-teal-accent" id="name" name="name" placeholder="Your Name" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="email">Your Email</label>
+<input class="block w-full bg-background-dark border-border-dark rounded-md py-3 px-4 text-gray-300 placeholder-gray-500 focus:ring-teal-accent focus:border-teal-accent" id="email" name="email" placeholder="Your Email" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="message">Your Message</label>
+<textarea class="block w-full bg-background-dark border-border-dark rounded-md py-3 px-4 text-gray-300 placeholder-gray-500 focus:ring-teal-accent focus:border-teal-accent" id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+</div>
+<div>
+<button class="w-full bg-teal-accent text-background-dark font-bold py-3 px-4 rounded-md hover:bg-teal-500 transition-colors" type="submit">Send Message</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</main>
+</div>
+</section>
+  </body>
+</html>
