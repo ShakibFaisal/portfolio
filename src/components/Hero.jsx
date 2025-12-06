@@ -56,7 +56,7 @@ const Hero = () => {
                             </p>
                         </div> */}
             <div>
-              <p className="text-3xl font-bold text-primary">5+</p>
+              <p className="text-3xl font-bold text-primary">10+</p>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Projects
               </p>
