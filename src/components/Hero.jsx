@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import img from "../assets/img.jpeg";
 import gsap from "gsap";
+import { FaJs, FaReact } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 
 const Hero = () => {
   const shapeRef1 = useRef(null);
@@ -120,18 +122,8 @@ const Hero = () => {
             transition={{ delay: 0.5 }}
             className="absolute top-8 right-0 md:top-12 md:-right-4 flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 backdrop-blur-sm p-2 px-4 rounded-full border border-gray-300 dark:border-gray-700 shadow-lg"
           >
-            <svg
-              className="h-5 w-5 text-cyan-500"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                clipRule="evenodd"
-                d="M11.3 1.046A1 1 0 0112 2v1.268l4.992 2.496a1 1 0 01.508.886v8.7a1 1 0 01-.508.886L12 18.732V19a1 1 0 01-1.447.894l-8-4A1 1 0 012 15V9a1 1 0 01.553-.894l8-4a1 1 0 01.747-.05zM12 4.392L5.888 7.5 12 10.608 18.112 7.5 12 4.392zM4 9.618v4.764l6 3v-4.764l-6-3z"
-                fillRule="evenodd"
-              ></path>
-            </svg>
+            <FaReact className="h-6 w-6 text-cyan-500 " />
+
             <span className="text-sm font-semibold text-gray-900 dark:text-white">
               React
             </span>
@@ -140,24 +132,31 @@ const Hero = () => {
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="absolute bottom-16 -right-4 md:bottom-24 md:-right-8 flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 backdrop-blur-sm p-2 px-4 rounded-full border border-gray-300 dark:border-gray-700 shadow-lg"
+            className="absolute bottom-16 -right-4 md:bottom-24 md:-right-8 
+             flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 
+             backdrop-blur-sm p-2 px-4 rounded-full border 
+             border-gray-300 dark:border-gray-700 shadow-lg"
           >
-            <span className="material-icons text-lg text-yellow-500">bolt</span>
+            <FaJs className="h-6 w-6 text-yellow-400" />
+
             <span className="text-sm font-semibold text-gray-900 dark:text-white">
-              Fast
+              JavaScript
             </span>
           </motion.div>
+
           <motion.div
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.7 }}
-            className="absolute bottom-8 -left-4 md:bottom-12 md:-left-8 flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 backdrop-blur-sm p-2 px-4 rounded-full border border-gray-300 dark:border-gray-700 shadow-lg"
+            className="absolute bottom-8 -left-4 md:bottom-12 md:-left-8 
+             flex items-center gap-2 bg-gray-200/50 dark:bg-gray-900/70 
+             backdrop-blur-sm p-2 px-4 rounded-full border 
+             border-gray-300 dark:border-gray-700 shadow-lg"
           >
-            <span className="material-icons text-lg text-orange-500">
-              palette
-            </span>
+            <SiMongodb className="h-6 w-6 text-green-600" />
+
             <span className="text-sm font-semibold text-gray-900 dark:text-white">
-              Design
+              MongoDB
             </span>
           </motion.div>
         </div>
