@@ -1,7 +1,8 @@
 import React from "react";
 import foodbridge from "../assets/foodbridge.JPG";
-import goedu from "../assets/goedu.jpg"
-import heroimg from "../assets/hero.JPG"
+import goedu from "../assets/goedu.jpg";
+import heroimg from "../assets/hero.JPG";
+import loanify from "../assets/loneify.JPG"
 
 const Projects = () => {
   const projects = [
@@ -10,13 +11,39 @@ const Projects = () => {
       description:
         "FoodBridge is a platform that connects donors and receivers to reduce food waste.",
       image: foodbridge,
-      technologies: ["React", "Tailwind", "Node.js","MongoDB","Express.js","Firebase"],
+      technologies: [
+        "React",
+        "Tailwind",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Firebase",
+      ],
       liveLink: "https://dsdw43sds.web.app/",
       gitLink: "https://github.com/ShakibFaisal/foodbridge-client",
     },
     {
+      title: "Loanify",
+      description:
+        "Loanify is a modern microloan management platform that helps NGOs and small financial organizations manage loan applications, approvals, and payments efficiently with full transparency.",
+      image: loanify,
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "Stripe",
+      ],
+      liveLink: "https://loanify-8951e.web.app/",
+      gitLink: "https://github.com/ShakibFaisal/loanify-client",
+    },
+
+    {
       title: "GoEdu – Online Learning Platform",
-      description: "GoEdu is an interactive learning platform where students can explore courses, view detailed course information, and book sessions with instructors.",
+      description:
+        "GoEdu is an interactive learning platform where students can explore courses, view detailed course information, and book sessions with instructors.",
       image: goedu,
       technologies: ["React", "Tailwind", "Firebase"],
       liveLink: "https://goedu-61dbb.web.app/",
@@ -24,7 +51,8 @@ const Projects = () => {
     },
     {
       title: "Weather Forecast App",
-      description: "Hero.io is an app store where users can explore app details and install apps effortlessly",
+      description:
+        "Hero.io is an app store where users can explore app details and install apps effortlessly",
       image: heroimg,
       technologies: ["React", "Tailwind"],
       liveLink: "https://rococo-cactus-cac3ac.netlify.app/",
@@ -57,14 +85,14 @@ const Projects = () => {
 
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4">
                   <a
-                  target="_blank"
+                    target="_blank"
                     href={project.liveLink}
                     className="p-3 bg-white rounded-full shadow"
                   >
                     👁
                   </a>
                   <a
-                  target="_blank"
+                    target="_blank"
                     href={project.gitLink}
                     className="p-3 bg-white rounded-full shadow"
                   >
