@@ -3,9 +3,30 @@ import foodbridge from "../assets/foodbridge.JPG";
 import goedu from "../assets/goedu.jpg";
 import heroimg from "../assets/hero.JPG";
 import loanify from "../assets/loneify.JPG"
+import eventhive from "../assets/eventhive.JPG"
 
 const Projects = () => {
   const projects = [
+    {
+  title: "EventHive",
+  description:
+    "EventHive is a full-stack event management platform that connects event organizers and attendees with secure booking, role-based access, real-time seat management, and integrated online payments.",
+  image: eventhive, 
+  technologies: [
+    "React",
+    "Tailwind CSS",
+    "DaisyUI",
+    "Framer Motion",
+    "Node.js",
+    "Express.js",
+    "MongoDB (Mongoose)",
+    "Firebase Authentication",
+    "Stripe API",
+  ],
+  liveLink: "https://event-hive-bd.vercel.app",
+  gitLink: "https://github.com/ShakibFaisal/EventHive",
+},
+
     {
       title: "FoodBridge",
       description:
